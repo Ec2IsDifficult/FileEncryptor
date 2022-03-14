@@ -30,4 +30,8 @@ public class KeyGeneration {
     public byte[] getMessage(byte[] receivedEncryptedMessage){
         return Arrays.copyOfRange(receivedEncryptedMessage,16,receivedEncryptedMessage.length);
     }
+
+    public void test(){
+        System.out.println("Jajo");
+    }
 }
